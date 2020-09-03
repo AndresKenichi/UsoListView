@@ -37,7 +37,9 @@ public class Ejemplo1ListView extends AppCompatActivity {
         ListaCarreras.add("Comunicaciones");
         ListaCarreras.add("Turismo");
         ListaCarreras.add("Docencia");
-
+        
+        
+        //Usamos un ArrayAdapter para vincular el listview con el Arreglo de nombre ListaCarreras..
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,ListaCarreras);
         lvlValores.setAdapter(adapter);
 
