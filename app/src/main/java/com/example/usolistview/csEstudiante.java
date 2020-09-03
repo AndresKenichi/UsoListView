@@ -2,8 +2,11 @@ package com.example.usolistview;
 
 public class csEstudiante {
 
+    //Declaracion de variables
     private String nombre;
     private char office;
+
+    //Comentario para verlo en Git
 
     //Creamo un constructor para asignarle valores  a las variables
     public csEstudiante(String nombre, char office){
