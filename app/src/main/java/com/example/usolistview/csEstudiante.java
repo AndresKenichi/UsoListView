@@ -7,6 +7,7 @@ public class csEstudiante {
     private char office;
 
     //Comentario para verlo en Git
+    //Otro comentario para ver un pull de los cambios generados por los demas companieros
 
     //Creamo un constructor para asignarle valores  a las variables
     public csEstudiante(String nombre, char office){
