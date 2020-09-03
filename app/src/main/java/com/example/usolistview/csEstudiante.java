@@ -20,6 +20,7 @@ public class csEstudiante {
         return nombre;
     }
 
+    //Creamos un metodo get ... Douglas
     public char getOffice(){
         return office;
     }
